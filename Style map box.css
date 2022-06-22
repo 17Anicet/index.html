@@ -1,0 +1,952 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(39, 39, 39);
+}
+header{
+    position: fixed;
+    margin-top: -120px;
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    background: rgb(39, 39, 39);
+    opacity: 0.9;
+}
+.logos{
+    position: absolute;
+    top: 5px;
+    margin-left: 5px;
+    height: 50px;
+    width: 230px;
+    object-fit: cover;
+    background-image: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+    margin-left: 280px;
+    margin-top: 1px;
+}
+li{
+    position: relative;
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    padding: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+li:hover{
+    color: blue;
+    border-radius: 15px;
+    border: none;
+}
+.product{
+    position: relative;
+    display: inline-block;
+}
+.product1{
+    cursor: pointer;
+}
+.product1:hover{
+    color: white;
+}
+.product2{
+    position: absolute;
+    font-size: 14px;
+    width: 580px;
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    gap: 100px;
+}
+.product3{
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+}
+.product:hover .product2{
+    display: flex;
+}
+.solution{
+    position: relative;
+    display: inline-block;
+}
+.solution1{
+    cursor: pointer;
+}
+.solution1:hover{
+    color: white;
+}
+.solution2{
+    position: absolute;
+    font-size: 14px;
+    width: 135px;
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.solution3{
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    display: block;
+    color: black;
+}
+.solution:hover .solution2{
+    display: block;
+}
+.developer{
+    position: relative;
+    display: inline-block;
+}
+.developer1{
+    cursor: pointer;
+}
+.developer1:hover{
+    color: white;
+}
+.developer2{
+    position: absolute;
+    font-size: 14px;
+    width: 125px;
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.developer3{
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    display: block;
+    color: black;
+}
+.developer:hover .developer2{
+    display: block;
+}
+.company{
+    position: relative;
+    display: inline-block;
+}
+.company1{
+    cursor: pointer;
+}
+.company1:hover{
+    color: white;
+}
+.company2{
+    position: absolute;
+    font-size: 14px;
+    width: 110px;
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.company3{
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    display: block;
+    color: black;
+}
+.company:hover .company2{
+    display: block;
+}
+#button{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1120px;
+}
+.button1:hover{
+    color: blue;
+}
+.button2:hover{
+    background: honeydew;
+    color:blue;
+}
+#anicet{
+    position: absolute;
+    top: 22px;
+    cursor: pointer;
+    margin-left: 50px;
+    color: white;
+    display: none;
+}
+.button1{
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    position: absolute;
+    top: 22px;
+    border: none;
+    font-weight: bolder;
+    background: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.button2{
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bolder;
+    margin-left: 70px;
+    position: absolute;
+    top: 15px;
+    background: blue;
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    width: 70px;
+    color: white;
+    cursor: pointer;
+}
+section{
+    width: 100%;
+}
+.paragraphe1{
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    width: 100%;
+    color: white;
+    margin-top: 120px;
+    text-align: center;
+    font-size: 80px;
+}
+.paragraphe2{
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    width: 100%;
+    position: relative;
+    top: -80px;
+    color: gray;
+    text-align: center;
+    font-size: 24px;
+}
+.bt{
+    margin-top: -50px;
+    text-align: center;
+}
+.button3:hover{
+    color: blue;
+    background: white;
+}
+.button3{
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    background: blue;
+    color: white;
+    height: 40px;
+    width: 230px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 8px;
+}
+.images{
+    border-radius: 20px;
+    height: 400px;
+    width: 700px;
+    overflow: hidden;
+    margin-top: 70px;
+    margin-left: 280px;
+}
+.image1,.image2,.image3,.image4{
+    height: 400px;
+    width: 850px;
+    object-fit: cover;
+    opacity: 0.3;
+}
+.img{
+    object-fit: cover;
+    width: 700px;
+    display: flex;
+    animation-duration: 20s;
+    animation-name: myImages;
+    animation-iteration-count: infinite;
+}
+@keyframes myImages {
+    0%{
+        transform: translate(0);
+    }
+    25%{
+        transform: translate(-850px);
+    }
+    50%{
+        transform: translate(-1700px);
+    }
+    75%{
+        transform: translate(-2550px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+.trust{
+    text-align: center;
+}
+.paragraphe3{
+    font-size: 18px;
+    margin-top: 200px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+.campany1{
+    margin-top: 30px;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 4rem;
+}
+.logo1,.logo2,.logo3{
+    width: 80px;
+    height: 60px;
+}
+.logo5{
+    height: 60px;
+    width: 150px;
+}
+.logo4{
+    height: 70px;
+    width: 170px;   
+}
+.campany2{
+    font-size: 100px;
+    margin-top: 45px;
+    text-align: center;
+    letter-spacing: 3.5rem;
+}
+.logo6,.logo7{
+    width: 80px;
+    height: 60px;
+}
+.logo8{
+    width: 100px;
+}
+.logo9{
+    width: 180px;
+    height: 60px;
+}
+.logo10{
+    width: 150px;
+    height: 60px;
+}
+.lien{
+    text-align: center;
+}
+.lien1:hover{
+    color: skyblue;
+}
+#icone0:hover{
+    color: skyblue;
+}
+.lien1{
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+    top: 40px;
+    text-decoration: none;
+    color: blue;
+}
+#icone0{
+    color: blue;
+    position: relative;
+    top: 40px;
+}
+.navigation{
+    position: relative;
+    top: 120px;
+    margin: 70px;
+}
+h1{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 55px; 
+}
+.paragraphe4{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    color: gray;
+}
+.button4:hover{
+    background: skyblue;
+    color: blue;
+}
+.button4{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    width: 210px;
+    height: 34px;
+    border-radius: 15px;
+    box-shadow: 0 0 0 2px gray;
+    border: 10px;
+    background: none;
+    cursor: pointer;
+}
+.photo{
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-left: 50px;
+}
+.photo1{
+    position: relative;
+    top: 150px;
+    width: 250px;
+    height: 510px;
+    object-fit: cover;
+}
+.photo2{
+    width: 875px;
+    height: 670px;
+    object-fit: cover;
+}
+.studio{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 200px;
+    margin-left: 50px;
+    gap: 85px;
+}
+.studio1{
+    width: 600px;
+    height: 450px;
+}
+.mapstudio{
+    position: relative;
+    top: 30px;
+}
+h2{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 55px; 
+}
+.paragraphe5{
+    font-family: 'DM Sans', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+.button5:hover{
+    background: skyblue;
+    color: blue;
+}
+.button5{
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px gray;
+    background: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.first{
+    position: relative;
+    top: 280px;
+    margin: 70px;
+}
+.maps000{
+    position: relative;
+    top: 200px;
+    display: flex;
+    gap: 50px;
+}
+.maps0000{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 55px;
+    color: white;
+}
+.paragraphe6{
+    font-size: 20px;
+    color: gray;
+    font-family: 'DM Sans', sans-serif;
+}
+.button6:hover{
+    background: skyblue;
+    color: blue;
+}
+.button6{
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px gray;
+    background: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.maps00,.maps01{
+    overflow: hidden;
+    width: 100%;
+    height: 740px;
+}
+.maps00{
+    position: relative;
+    top: 80px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 440px;
+    margin-left: 50px;
+    gap: 85px;
+}
+.search1{
+    width: 600px;
+    height: 500px;
+}
+.mapsearch{
+    position: relative;
+    top: 60px;
+}
+.mapsearch1{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 55px; 
+}
+.paragraphe7{
+    font-family: 'DM Sans', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+.button7:hover{
+    background: skyblue;
+    color: blue;
+}
+.button7{
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px gray;
+    background: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.away{
+    margin-top: 600px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    background: rgb(26, 25, 25);
+    border-radius: 18px;
+    width: 1200px;
+    margin-left: 30px;
+    margin-right: 12px;
+    overflow: hidden;
+}
+.straight{
+    margin-top: 450px;
+    margin: 80px;
+}
+.show{
+    background: green;
+    color: white;
+    border-radius: 5px;
+    width: 190px;
+    height: 15px;
+    padding: 5px;
+}
+.show1{
+    width: 300px;
+    height: 50px;
+}
+.paragraphe8{
+    font-family: 'DM Sans', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+.button8:hover{
+    background: skyblue;
+    color: blue;
+}
+.button8{
+    width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px gray;
+    background: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.away1{
+    width: 819px;
+    height: 610px;
+    object-fit: cover;
+}
+.vision{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-left: 30px;
+    margin-right: 12px;
+}
+.vision1{
+    width: 600px;
+    height: 290px;
+    object-fit: cover;
+}
+.vision2{
+    position: relative;
+    top: -56px;
+}
+.paragraphe9{
+    font-family: 'DM Sans', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+.button9:hover{
+    background: skyblue;
+    color: blue;
+}
+.button9{
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px gray;
+    background: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    gap: 62px;
+    margin-left: 30px;
+    margin-right: 12px;
+    margin-top: 150px;
+}
+.data0{
+    margin-top: 40px;
+}
+.paragraphe10{
+    font-family: 'DM Sans', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+.button10:hover{
+    background: skyblue;
+    color: blue;
+}
+.button10{
+    width: 210px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px gray;
+    background: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.picture1{
+    object-fit: cover;
+    width: 640px;
+    height: 400px;
+}
+.true{
+    display: flex;
+    flex-direction: row;
+    margin-top: 190px;
+    gap: 63px;
+    margin-left: 30px;
+    margin-right: 12px;
+}
+.atlas{
+    width: 670px;
+    height: 370px;
+    object-fit: cover;
+}
+.paragraphe11{
+    font-family: 'DM Sans', sans-serif;
+    color: gray;
+    font-size: 20px;
+}
+.button11:hover{
+    background: skyblue;
+    color: blue;
+}
+.button11{
+    width: 240px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px gray;
+    background: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.wesh{
+    text-align: center;
+    background: rgb(26, 25, 25);
+    border-radius: 15px;
+    height: 240px;
+    width: 1100px;
+    margin-left: 90px;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+.paragraphe12{
+    position: relative;
+    top: 25px;
+    color: white;
+    font-size: 55px;
+    font-family: 'DM Sans', sans-serif;
+}
+.paragraphe13{
+    position: relative;
+    top: -30px;
+    font-family: 'DM Sans', sans-serif;
+    color: gray;
+    font-size: 20px;
+    cursor: pointer;
+}
+.hello{
+    gap: 30px;
+    position: relative;
+    top: -20px;
+}
+.button12:hover{
+    background: skyblue;
+    color: blue;
+}
+.button12{
+    width: 190px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.button13:hover{
+    background: skyblue;
+    color: blue;
+}
+.button13{
+    width: 190px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px gray;
+    background: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+    margin-top: 175px;
+}
+.lagos1{
+    height: 50px;
+    width: 310px;
+    margin-left: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.all{
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    padding: 50px 0px 100px;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 13px;
+}
+.all1,.all3,.all5{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 0 30px;
+}
+h4{
+    color: white;
+}
+.paragraphe14{
+    font-weight: bolder;
+    color: gray;
+    cursor: pointer;
+}
+.paragraphe14:hover{
+    color: blue;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    padding: 5px;
+    gap: 10px;
+    margin-left: 30px;
+}
+.paragraphe15:hover{
+    color: blue;
+}
+.paragraphe15,.parent1{
+    font-weight: bolder;
+    font-family: 'DM Sans', sans-serif;
+    color: gray;
+    cursor: pointer;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+}
+.lastpart{
+    color: gray;
+    margin-top: 22px;
+    letter-spacing: 10px;
+    margin-left: 720px;
+    font-size: 20px;
+}
+#one{
+    cursor: pointer;
+}
+#one:hover{
+    color: blue;
+}
+@media all and (max-width: 1162px){
+    .lastpart{
+        margin-left: 680px;
+    }
+}
+@media all and (max-width: 1024px){
+    .paragraphe1,.paragraphe2{
+        margin-left: 170px;
+    }
+    .bt{
+        margin-left: 300px;
+    }
+}
+@media all and (max-width: 1103px){
+    .v3,h1,h2,.maps0000,.mapsearch1{
+        font-size: 40px;
+    }
+    .lagos1{
+        width: 220px;
+        margin-right: 85px;
+        font-size: 10px;
+    }
+    .paragraphe14{
+        font-size: 15px;
+    }
+    .vision1{
+        width: 590px;
+        height: 290px;
+        object-fit: cover;
+    }
+    .lastpart{
+        margin-left: 620px;
+    }
+}
+@media all and (max-device-width: 960px){
+    header{
+        height: 70px;
+    }
+    .list{
+        display: none;
+    }
+    #anicet{
+        display: flex;
+    }
+    #anicet:hover .list{
+        display: block;
+    }
+    .paragraphe1,.paragraphe2{
+       margin-left: 170px;
+    }
+    .campany2,.campany1,.paragraphe3,.lien{
+        margin-left: 220px;
+    }
+    .bt{
+        margin-left: 300px;
+     }
+    .vision,.true{
+        display: grid;
+    }
+    .vision2,.good{
+        margin-left: 350px;
+    }
+    .lastpart{
+        margin-left: 500px;
+    }
+}
+@media all and (max-device-width: 773px){
+    .search,.data,.studio{
+        display: grid;
+    }
+    .mapstudio,.mapsearch{
+        margin-left: 260px;
+    }
+    .picture{
+        margin-left: 380px;
+    }
+    h4,.paragraphe14{
+        font-size: 20px;
+    }
+}
+@media all and (max-device-width: 600px){
+    .button3,.button4,.button5,.button6,.button7,.button8,.button9,.button10,.button10,.button11,.button12,.button13{
+        width: 340px;
+        height: 70px;
+        border-radius: 35px;
+        font-size: 30px;
+    }
+    .wesh{
+        height: 270px;
+    }
+    .paragraphe14{
+        font-size: 25px;
+    }
+    .paragraphe3,.paragraphe4,.paragraphe5,.paragraphe6,.paragraphe7,.paragraphe8,.paragraphe9,.paragraphe10,.paragraphe11,.paragraphe13{
+        font-size: 30px;
+    }
+}
+@media all and (max-device-width: 400px){
+    .mapstudio,.mapsearch,.vision2,.good{
+        margin-left: auto;
+    }
+}
