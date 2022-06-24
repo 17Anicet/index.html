@@ -364,11 +364,6 @@ section{
     text-decoration: none;
     color: blue;
 }
-#icone0{
-    color: blue;
-    position: relative;
-    top: 40px;
-}
 .navigation{
     position: relative;
     top: 120px;
@@ -471,7 +466,6 @@ h2{
     position: relative;
     top: 200px;
     display: flex;
-    gap: 50px;
 }
 .maps0000{
     font-family: 'DM Sans', sans-serif;
@@ -501,7 +495,7 @@ h2{
 }
 .maps00,.maps01{
     overflow: hidden;
-    width: 100%;
+    width: 1000px;
     height: 740px;
 }
 .maps00{
@@ -646,7 +640,6 @@ h2{
     flex-direction: row;
     gap: 62px;
     margin-left: 30px;
-    margin-right: 12px;
     margin-top: 150px;
 }
 .data0{
@@ -886,7 +879,7 @@ h4{
     header{
         height: 70px;
     }
-    .list{
+    .list,.button2{
         display: none;
     }
     #anicet{
@@ -907,9 +900,6 @@ h4{
     .vision,.true{
         display: grid;
     }
-    .vision2,.good{
-        margin-left: 350px;
-    }
     .lastpart{
         margin-left: 500px;
     }
@@ -917,9 +907,6 @@ h4{
 @media all and (max-device-width: 773px){
     .search,.data,.studio{
         display: grid;
-    }
-    .mapstudio,.mapsearch{
-        margin-left: 260px;
     }
     .picture{
         margin-left: 380px;
@@ -943,6 +930,152 @@ h4{
     }
     .paragraphe3,.paragraphe4,.paragraphe5,.paragraphe6,.paragraphe7,.paragraphe8,.paragraphe9,.paragraphe10,.paragraphe11,.paragraphe13{
         font-size: 30px;
+    }
+}
+@media all and (max-device-width: 540px){
+    header{
+        height: 90px;
+    }
+    .logos{
+        margin-top: 13px;
+        height: 73px;
+        width: 355px;
+    }
+    .button1{
+        font-size: 40px;
+    }
+    .paragraphe1{
+        font-size: 70px;
+    }
+    .paragraphe2{
+        font-size: 40px;
+    }
+    .button3{
+        width: 450px;
+        height: 80px;
+        font-size: 40px;
+    }
+    .images{
+        width: 1100px;
+        height: 900px;
+        margin-left: 70px;
+    }
+    .image1,.image2,.image3,.image4{
+        width: 1400px;
+        height: 600px;
+    }
+    @keyframes myImages {
+        0%{
+            transform: translate(0);
+        }
+        25%{
+            transform: translate(-1200px);
+        }
+        50%{
+            transform: translate(-2400px);
+        }
+        75%{
+            transform: translate(-3600px);
+        }
+        100%{
+            transform: translate(0);
+        }
+    }
+    .paragraphe3{
+        margin-top: 100px;
+        font-size: 50px;
+    }
+    .logo1,.logo2,.logo3{
+        width: 170px;
+        height: 130px;
+    }
+    .logo4{
+        height: 300px;
+        width: 370px;
+    }
+    .logo5{
+        height: 90px;
+        width: 250px;
+        position: relative;
+        top: -110px;
+    }
+    .logo6,.logo7{
+        width: 200px;
+        height: 140px;
+    }
+    .logo8{
+        width: 400px;
+    }
+    .logo9{
+        width: 200px;
+        height: 200px;
+    }
+    .logo10{
+        width: 200px;
+        height: 100px;
+    }
+    .lien1{
+        font-size: 40px;
+    }
+    h1,h2,.maps0000,.mapsearch1,.v3,.paragraphe12{
+        font-size: 70px;
+    }
+    .paragraphe4,.paragraphe5,.paragraphe6,.paragraphe7,.paragraphe8,.paragraphe9,.paragraphe10,.paragraphe11,.paragraphe13{
+        font-size: 50px;
+    }
+    .button3,.button4,.button5,.button6,.button7,.button9,.button10,.button11,.button12,.button13{
+        width: 480px;
+        height: 90px;
+        border-radius: 40px;
+        font-size: 40px;
+    }
+    .button8{
+        width: 500px;
+        height: 90px;
+        border-radius: 40px;
+        font-size: 35px;
+    }
+    .studio1,.search1{
+        width: 1200px;
+        height: 900px;
+    }
+    .maps00{
+        height: 900px;
+        width: 3000px;
+        margin-left: 100px;
+    }
+    .maps01{
+        height: 900px;
+        width: 3000px;
+        margin-left: 100px;
+    }
+    .vision1,.atlas{
+        width: 1200px;
+        height: 600px;
+    }
+    .picture1{
+        width: 800px;
+        height: 800px;
+    }
+    .wesh{
+        height: 400px;
+        width: 1200px;
+        margin-left: 15px;
+    }
+    .lagos1{
+        margin-left: 100px;
+        height: 50px;
+        width: 250px;
+        margin-top: 30pxs;
+    }
+    .paragraphe14,h4{
+        font-size: 30px;
+    }
+    .paragraphe15,#one,.parent1{
+        font-size: 25px;
+    }
+    .lastpart{
+        margin-left: 310px;
     }
 }
 @media all and (max-device-width: 400px){
